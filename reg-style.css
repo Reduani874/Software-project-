@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.container {margin: 20px 0 20px 0;}
+.form-area {
+    max-width: 400px;
+    margin: 0px auto;
+    padding: 48px 48px;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 16px;
+}
+.header h2{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+}
+.text-field {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 4px 0;
+}
+.text-field p {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.text-field > p > a {
+    color: #45AF7B;
+}
+.text-field label{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 500;
+}
+.input-field input {width: 100%;padding: 12px 0 12px 0;/* border: 1px solid; */border: 2px solid #e3e3e3;border-radius: 5px;}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.btn button {
+    width: 100%;
+    padding: 14px 0 14px 0;
+    border: none;
+    border-radius: 50px;
+    background: #04aa6d;
+    color: #fff;
+    font-size: 16px;
+}
+.btn > button:hover {
+    background: #059862;
+}
+
+.go-home{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.go-home p {
+    margin-right: 10px;
+}
+.go-home .home-page{
+    color: #24AA72;
+    text-decoration: underline;
+}
